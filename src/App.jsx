@@ -59,31 +59,31 @@ const styles = {
     padding: "20px"
   },
   watchFace: {
-    width: "85vw", 
-    maxWidth: "360px", 
+    width: "80vw", 
+    maxWidth: "500px",   // slightly smaller so circle feels compact
     aspectRatio: "1/1", 
     background: "rgba(255, 255, 255, 0.12)",
     backdropFilter: "blur(15px)",
     border: "3px solid rgba(255,255,255,0.3)",
-    borderRadius: "50%",
+    borderRadius: "50%", // true circle
     boxShadow: "0 10px 25px rgba(0,0,0,0.4)",
     color: "white",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    padding: "20px",
+    padding: "16px",
     textAlign: "center"
   },
   clock: {
-    fontSize: "8vw", 
+    fontSize: "6.5vw", // reduced from 8vw so digits don’t spill
     fontWeight: "bold",
-    marginBottom: "12px",
-    letterSpacing: "2px",
-    textShadow: "0 0 12px rgba(0,0,0,0.6)"
+    marginBottom: "10px",
+    letterSpacing: "1.5px",
+    textShadow: "0 0 8px rgba(0,0,0,0.5)"
   },
   date: {
-    fontSize: "4vw",
+    fontSize: "2.0vw", // slightly smaller to balance
     opacity: 0.85,
     fontWeight: "300"
   }
