@@ -83,7 +83,7 @@ const styles = {
     textShadow: "0 0 8px rgba(0,0,0,0.5)"
   },
   date: {
-    fontSize: "2.0vw", // slightly smaller to balance
+    fontSize: "3.0vw", // slightly smaller to balance
     opacity: 0.85,
     fontWeight: "300"
   }
